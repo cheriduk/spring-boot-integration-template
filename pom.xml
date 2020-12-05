@@ -19,6 +19,12 @@
 
     <modules>
         <module>spring-boot-quartz-simple</module>
+        <module>spring-boot-elastic-simple</module>
+        <module>elastic-standone-simple</module>
+        <module>spring-scheduled-simple</module>
+        <module>spring-xxl-job-simple</module>
+        <module>no-spring-jdk-timer-simple</module>
+        <module>spring-boot-batch-simple</module>
     </modules>
 
     <properties>

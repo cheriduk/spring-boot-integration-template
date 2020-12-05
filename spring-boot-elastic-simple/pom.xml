@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>spring-boot-integration-template</artifactId>
+        <groupId>org.example</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>spring-boot-elastic-simple</artifactId>
+
+    <properties>
+        <elasticjob.version>2.1.5</elasticjob.version>
+    </properties>
+
+    <!--    <dependencies>-->
+    <!--        &lt;!&ndash; 引入elastic-job-lite核心模块 &ndash;&gt;-->
+    <!--        <dependency>-->
+    <!--            <groupId>com.dangdang</groupId>-->
+    <!--            <artifactId>elastic-job-lite-core</artifactId>-->
+    <!--            <version>${elasticjob.version}</version>-->
+    <!--        </dependency>-->
+
+    <!--        &lt;!&ndash; 使用springframework自定义命名空间时引入 &ndash;&gt;-->
+    <!--        <dependency>-->
+    <!--            <groupId>com.dangdang</groupId>-->
+    <!--            <artifactId>elastic-job-lite-spring</artifactId>-->
+    <!--            <version>${elasticjob.version}</version>-->
+    <!--        </dependency>-->
+    <!--    </dependencies>-->
+
+    <dependencies>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.22</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.dangdang/elastic-job-lite-spring -->
+        <dependency>
+            <groupId>com.dangdang</groupId>
+            <artifactId>elastic-job-lite-spring</artifactId>
+            <version>2.1.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>
