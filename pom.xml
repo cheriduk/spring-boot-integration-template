@@ -25,6 +25,10 @@
         <module>spring-xxl-job-simple</module>
         <module>no-spring-jdk-timer-simple</module>
         <module>spring-boot-batch-simple</module>
+        <module>spring-boot-elastic-simple2</module>
+        <module>spring-boot-kafka-simple</module>
+        <module>spring-boot-kafka-simple2</module>
+        <module>spring-boot-rwseparate-db-mysql</module>
     </modules>
 
     <properties>
