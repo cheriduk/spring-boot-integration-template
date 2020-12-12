@@ -29,6 +29,9 @@
         <module>spring-boot-kafka-simple</module>
         <module>spring-boot-kafka-simple2</module>
         <module>spring-boot-rwseparate-db-mysql</module>
+        <module>spring-boot-canal-simple</module>
+        <module>spring-boot-kafka-redis-datasync-simple</module>
+        <module>spring-boot-canal-rocketmq-elasticsearch</module>
     </modules>
 
     <properties>
