@@ -25,7 +25,6 @@ public class CanalBean {
     //sql语句
     private String sql;
 
-    private SqlType sqlType;
     //表名
     private String table;
 
@@ -111,14 +110,6 @@ public class CanalBean {
 
     public String getSql() {
         return sql;
-    }
-
-    public void setSqlType(SqlType sqlType) {
-        this.sqlType = sqlType;
-    }
-
-    public SqlType getSqlType() {
-        return sqlType;
     }
 
     public void setTable(String table) {
