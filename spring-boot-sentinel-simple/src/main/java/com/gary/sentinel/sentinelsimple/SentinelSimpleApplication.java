@@ -1,0 +1,13 @@
+package com.gary.sentinel.sentinelsimple;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SentinelSimpleApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(SentinelSimpleApplication.class, args);
+    }
+
+}

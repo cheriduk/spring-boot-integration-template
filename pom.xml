@@ -32,6 +32,9 @@
         <module>spring-boot-canal-simple</module>
         <module>spring-boot-kafka-redis-datasync-simple</module>
         <module>spring-boot-canal-rocketmq-elasticsearch</module>
+        <module>spring-boot-mybatis-tkmapper</module>
+        <module>spring-boot-JMockit-example</module>
+        <module>spring-boot-websocket-vue-simple</module>
     </modules>
 
     <properties>

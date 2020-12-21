@@ -1,0 +1,7 @@
+#spring:
+#  application:
+#    name: cloudalibaba-sentinel-service
+#    sentinel:
+#      transport: #dashboard地址
+#        dashboard: localhost:8081
+#        port: 8719  #默认端口，如果被占用则从8719依次+1扫描
